@@ -1,0 +1,123 @@
+LIFE LEXICON
+  Release 30, 2019 ? ?
+  ASCII version
+
+INTRODUCTION
+  This is a lexicon of terms relating to John Horton Conway's
+Game of Life.  It is also available in single-page and multipage
+HTML versions.
+  This lexicon was originally compiled between 1997 and 2006 by
+Stephen A. Silver, and was updated in 2016-18 by Dave Greene and David
+Bell.  See below for additional credits.
+  The latest versions of this lexicon (both HTML and ASCII) can be
+found at the Life Lexicon Home Page, http://conwaylife.com/ref/lexicon/.
+
+CREDITS
+  The largest single source for the early versions of this lexicon was
+a glossary compiled by Alan Hensel "with indispensable help from John
+Conway, Dean Hickerson, David Bell, Bill Gosper, Bob Wainwright, Noam
+Elkies, Nathan Thompson, Harold McIntosh, and Dan Hoey".
+  Other sources include the works listed in the bibliography at the
+end of this lexicon, as well as pattern collections by Alan Hensel and
+David Bell (and especially Dean Hickerson's file stamp.l in the latter
+collection), and the web sites of Mark Niemiec, Paul Callahan, Achim
+Flammenkamp, Robert Wainwright and Heinrich Koenig.  Recent releases
+also use a lot of information from Dean Hickerson's header to his
+1995 stamp file (http://conwaylife.com/ref/DRH/stamps.html).
+  Most of the information on recent results is from the discoverers
+themselves, or from Nathaniel Johnston's excellent resources at
+http://www.conwaylife.com, including both the LifeWiki and the
+discussion forums.
+  The following people all provided useful comments on earlier releases
+of this lexicon:  David Bell, Nicolay Beluchenko, Johan Bontes, Daniel
+Collazo, Scot Ellison, Nick Gotts, Ivan Fomichev, Dave Greene, Alan
+Hensel, Dean Hickerson, Dieter Leithner, Mark Niemiec, Gabriel Nivasch,
+Andrzej Okrasinski, Arie Paap, Peter Rott, Chris Rowett, Tony Smith,
+Ken Takusagawa, Andrew Trevorrow, Malcolm Tyrrell, and the
+conwaylife.com forum users with the handles 'thunk' and 'Apple Bottom'.
+
+  The format, errors, use of British English and anything else you
+might want to complain about are by Stephen Silver - except that for
+post-Version 25 definitions, everything besides the British English
+may well be Dave Greene's fault instead.
+
+COPYING
+  This lexicon is copyright (C) Stephen Silver, 1997-2018.  It may be
+freely copied, modified and distributed under the terms of the Creative
+Commons Attribution-ShareAlike 3.0 Unported licence (CC BY-SA 3.0),
+as long as due credit is given.  This includes not just credit to those
+who have contributed in some way to the present version (see above),
+but also credit to those who have made any modifications.
+
+LEXICOGRAPHIC ORDER
+  I have adopted the following convention: all characters (including
+spaces) other than letters and digits are ignored for the purposes of
+ordering the entries in this lexicon.  (Many terms are used by some
+people as a single word, with or without a hyphen, and by others as two
+words.  My convention means that I do not have to list these in two
+separate places.  Indeed, I list them only once, choosing whichever
+form seems most common or sensible.)  Digits lexicographically precede
+letters.
+
+FORMAT
+  The format used in the ASCII version of this lexicon is loosely
+based on that of the Jargon File.  In particular, the keywords are
+enclosed in colons and selected references to them are enclosed in
+curly brackets.  The curly brackets will not be of much use unless
+you have a programmable text editor, in which case you could program
+it to jump from a reference to the corresponding definition when you
+hit a certain key.  (The file lifelex.el, which you should have
+received with this lexicon, provides such a facility for GNU Emacs.)
+If you don't want the curly brackets you can safely remove them with
+two find and replace operations, since they are not used for any other
+purpose in this file.  The colons are more generally useful.  For
+example, a search for ":foo" will take you straight to the definition
+of the first word beginning with "foo" (or at least it would if there
+were any).
+  The diagrams in this lexicon are in a very standard format.  You
+should be able to simply copy a pattern, paste it into a new file and
+run it in your favourite Life program.  Of course if you use Golly
+(http://golly.sf.net) then you can paste the pattern directly into the
+program.  If you view this lexicon in GNU Emacs and use lifelex.el then
+you should be able to load a pattern into your Life program with a
+single keypress, without needing to copy or paste.
+  The diagrams use an asterisk to represent a live cell.  If this looks
+ugly with the font you use then you can change to O or o with a global
+replace.  I have restricted myself to diagrams of size 64x64 or less.
+  Most definitions that have a diagram have also some data in brackets
+after the keyword.  Oscillators are marked as pn (where n is a positive
+integer), meaning that the period is n (p1 indicates a still life).
+Wicks are marked in the same way but with the word "wick" added.  For
+spaceships the speed (as a fraction of c, the speed of light), the
+direction and the period are given.  Fuses are marked with speed and
+period and have the word "fuse" added.  Wicks and fuses are infinite in
+extent and so have necessarily been truncated, with the ends stabilized
+wherever practical.
+
+SCOPE
+  This lexicon covers only Conway's Life, and provides no information
+about other cellular automata.  David Bell has written articles on
+two other interesting cellular automata: HighLife (which is similar
+to Life, but has a tiny replicator) and Day & Night (which is very
+different, but exhibits many of the same phenomena).  These articles
+can be found on his website (http://tip.net.au/~dbell/).
+
+ERRORS AND OMISSIONS
+  If you find any errors (including typos) or serious omissions, then
+please email b3s23life[at]gmail.com with the details.  As of mid-2018
+this email address is monitored by Dave Greene.
+
+NAMES
+  When deciding whether to use full or abbreviated forms of forenames
+I have tried, wherever possible, to follow the usage of the person
+concerned.
+
+QUOTE
+  Every other author may aspire to praise; the lexicographer can only
+hope to escape reproach.  -- Samuel Johnson, 1775
+
+DEDICATION
+  This lexicon is dedicated to the memory of Dieter Leithner, who died
+on 26 February 1999.
+
+-----------------------------------------------------------------------
