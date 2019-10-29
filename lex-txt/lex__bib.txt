@@ -1,0 +1,45 @@
+-----------------------------------------------------------------------
+
+Bibliography.
+
+David I. Bell, "Spaceships in Conway's Life".  Series of articles
+  posted on comp.theory.cell-automata, Aug-Oct 1992.  Now available
+  from his website (http://tip.net.au/~dbell/).
+
+David I. Bell, "Speed c/3 Technology in Conway's Life", 17 December
+  1999.  Available from his website (see above).
+
+Elwyn R. Berlekamp, John H. Conway and Richard K. Guy, "Winning Ways
+  for your Mathematical Plays, II: Games in Particular".  Academic
+  Press, 1982.
+
+David J Buckingham, "Some Facts of Life".  BYTE, December 1978.
+
+Dave Buckingham, "My Experience with B-heptominos in Oscillators".
+  12 October 1996.  Available from Paul Callahan's website
+  (http://conwaylife.com/ref/lifepage/patterns/bhept/bhept.html).
+
+David J. Buckingham and Paul B. Callahan, "Tight Bounds on Periodic Cell
+  Configurations in Life".  Experimental Mathematics 7:3 (1998) 221-241.
+  Available at http://tinyurl.com/TightBoundsOnCellConfigs .
+
+Noam D. Elkies, "The still-Life density problem and its
+  generalizations", pp228-253 of "Voronoi's Impact on Modern Science,
+  Book I", P. Engel, H. Syta (eds), Institute of Mathematics,
+  Kyiv 1998 = Vol.21 of Proc. Inst. Math. Nat. Acad. Sci. Ukraine,
+  math.CO/9905194 (http://front.math.ucdavis.edu/math.CO/9905194).
+
+Martin Gardner, "Wheels, Life, and other Mathematical Amusements".
+  W. H. Freeman and Company, 1983.
+
+R. Wm. Gosper, "Exploiting Regularities in Large Cellular Spaces".
+  Physica 10D (1984) 75-80.
+
+N. M. Gotts and P. B. Callahan, "Emergent structures in sparse fields of
+  Conway's 'Game of Life'", in "Artificial Life VI: Proceedings of the
+  Sixth International Conference on Artificial Life", MIT Press, 1998.
+
+Mark D Niemiec, "Life Algorithms".  BYTE, January 1979.
+
+William Poundstone, "The Recursive Universe".  William Morrow and
+  Company Inc., 1985.
