@@ -1,0 +1,18 @@
+Changelog
+---------
+
+Changes post-Release 29:
+Added :latch: -- already in LifeWiki
+Linked :switch: and :demultiplexer: to {latch} -- already in LifeWiki
+Made :bumper: a little more accurate (the p3 bumper was discovered by Arie Paap) -- already in LifeWiki
+Added redirect -- :colour-preserving semi-cenark:  = {CP semi-cenark} -- already in LifeWiki
+Added redirect -- :colour-changing semi-cenark:  = {CC semi-cenark}  -- already in LifeWiki
+Changed :glider to block: to give Paul Callahan as discoverer instead of Sergei Petrov -- already in LifeWiki
+Added more links to :century-to-glider converter: -- already in LifeWiki
+Removed three extra spaces at beginning of :PF35W:
+Fixed :LWSS-to-G: redirect to point to :45-degree MWSS-to-G:, not :135-degree MWSS-to-G: -- already in LifeWiki
+Added redirect link to :relay: from :p60 glider shuttle:
+Updated :line crosser:, :line-cutting reaction:, and :line-mending reaction:.  Should ask if Goldtiger997 wants credit by name.
+Added :p4 CC cenark:, :p4 CP cenark:, updated :p4 bumper:.
+Corrected :staged recovery: which incorrectly mentioned a Callahan G-to-H instead of Herschel receiver
+Added Nathaniel Johnston's counts for 33-bit still lifes

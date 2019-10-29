@@ -1,0 +1,100 @@
+TBDs:
+
+TBD: fix Release 30 release date at top of Lexicon text (and keep this TBD for next time)
+TBD: add reference to Luka Okanishi's stable Herschel splitter to :splitter: and :Fx119:
+TBD: add :cottonmouth:, with link from :copperhead:
+#C Cottonmouth
+#C (extensible pushalong for c/10 copperhead spaceship)
+#C 'AforAmpere', 24 March 2018
+#C http://www.conwaylife.com/forums/viewtopic.php?p=58357#p58357
+x = 10, y = 35, rule = B3/S23
+4b2o$3b4o2$2b6o$3b4o2$2b2o2b2o$2obo2bob2o$3bo2bo3$b2o4b2o$bo2b2o2bo$2b
+6o$bobo2bobo$3o4b3o$2o6b2o2$3o4b3o$3o4b3o4$2b2o2b2o$4b2o$4b2o$bobo2bob
+o$bo6bo2$bo6bo$2b2o2b2o$3b4o2$4b2o$4b2o!
+
+TBD: mention 2c/5 non-monotonic ship?
+#C non-monotonic 2c/5 spaceships
+#C Arie Paap and Matthias Merzenich, 13 April 2018
+#C http://www.conwaylife.com/forums/viewtopic.php?p=59120#p59120
+
+TBD: Add :minstrel: -- already in LifeWiki
+TBD: Add :knightwave:, :errant minstrel:, :ragged minstrel:, :wandering minstrel:, :featherweight minstrel:, :lightweight minstrel:, :heavyweight minstrel:
+     Add alias link for :M0:, :Minstrel 0:?
+
+TBD:  Add :upconverter:, :downconverter: (link to {converter}) -- already in LifeWiki
+      Add calcyman's definition:  "If the output {signal} is more complex than the input signal, this can be called an upconverter.  A conduit that converts a rarer or more complex object into a simpler one is a downconverter." -- already in LifeWiki
+
+TBD:  Add :doubled-signal toolkit: -- or possibly :G0 toolkit:?  See how the terminology shakes out.
+
+TBD: Review :glider synthesis:
+     > For Release 30 it would probably be worth mentioning in each relevant spaceship article
+     >   the discoverer and date of all the recent glider syntheses.
+     > ( http://www.conwaylife.com/forums/viewtopic.php?p=61570#p61570 )
+
+TBD: pointer from :17c/45 spaceship: to :pi climber: and vice versa.
+
+TBD: Pattern of the Year 2018 updates --
+
+0E0P metacell	Adam P. Goucher
+A unit cell which does not require a background grid of metacells to function, proving the existence of unusual classes of patterns such as quadratic replicators and RROs in Conway's Game of Life "imported" from other rules.
+Reverse caber-tosser	Adam P. Goucher, Dave Greene, Chris Cain
+A complex mechanism which theoretically allows any glider-synthesisable pattern to be synthesised in just 35 gliders, by encoding the pattern's complexity into the distance between the gliders rather than their quantity.
+Turing Machine simulator	Michael Simkin
+A script which can simulate arbitrary Turing machines in Conway's Game of Life using a finite tape.
+Camelship	Chris Cain
+A self-constructing oblique spaceship with the minimum possible step size for a slope 3 spaceship.
+New self-constructing spaceships	Dave Greene
+A loopship, along with HashLife-friendly variants of Orthogonoid and Demonoid.
+c/2 diagonal telegraph recipe	Martin Grant
+A 140-glider recipe to create a detectable c/2 diagonal signal traveling non-destructively along an arbitrarily long barge or ship.
+Period-52 glider gun	Dave Greene, Matthias Merzenich, Adam P. Goucher, Chris Cain, Entity Valkyrie
+The first true-period 52 gun constructed, which was later vastly reduced using 53P13.
+Stable line crosser	Dave Greene, Goldtiger997, Chris Cain
+A modernized rehash of a periodic circuit for transmitting a glider across a diagonal line of cells found by David Bell.
+Jormungant's G-to-H	Louis-François Handfield (Jormungant)
+A 2G-to-H converter with a short recovery time, allowing for the optimization of numerous guns.
+Period-33 glider gun	Arie Paap, Matthias Merzenich
+The first true-period 33 gun, which uses two interacting copies of Jason's p33.
+Infinite distinct diagonal spaceships and infinite distinct orthogonal spaceships	Adam P. Goucher, Goldtiger997
+Two guns which each use sqrtgun mechanisms to fire infinitely many distinct spaceships, all of which are puffers whose outputs are eaten by spaceships arbitrarily far away.
+Sierpinski triangle generator	Luka Okanishi
+A breeder that outputs gliders in the shape of a growing Sierpinski triangle.
+Cottonmouth	AforAmpere
+An infinitely extensible pushalong for the copperhead and fireship.
+5c/9 signal injector	Rhombic, Simon Ekström, Chris Cain
+A method of transforming Herschels to 5c/9 drifters with a recovery time of 62.
+p46 gliderless LWSS gun	Nathaniel Johnston
+The smallest known gliderless LWSS gun, using three copies of Tanner's p46.
+Bronco	Tanner Jacobi
+The second elementary glider-to-Herschel converter to be discovered.
+New high-period oscillators	carybe
+A collective entry for p36 shuttle, 34P14 shuttle, 68P16, and p64 thunderbird hassler, all discovered using apgsearch.
+Quinti-Snarks	Tanner Jacobi
+Period-quintupling reflectors useful for guns.
+Pseudo-period xWSS guns	Chris Cain, Adam P. Goucher, Entity Valkyrie, 2718281828, Goldtiger997
+New xWSS guns with pseudo-periods ranging from 18 to 21, breaking the previous record of 22.
+Self-constructing oscillator with strict volatility one	Dave Greene, Goldtiger997
+A method of constructing strictly volatile oscillators with any period 3,506,910 or above.
+p3 bumper	Arie Paap, Tanner Jacobi
+A periodic reflector to work at p39, which also allowed for the construction of a p57 bumper loop
+Goldtiger997's Amazing 2 in 1 Reusable Multipurpose Minstrel Remover and Detector™	Goldtiger997
+A circuit capable of removing every known Minstrel from Sir Robin at the time of its construction.
+New mid-period sparkers	Dongook Lee, Josh Ball, Martin Grant, Aidan F. Pierce, carybe, Bullet51
+A collective entry for various sparking oscillators with periods ranging from 7 to 10, including but not limited to 68P9 and 55P10.
+Minstrel 4	Entity Valkyrie
+A manually-assembled Sir Robin tagalong which combines Minstrels 1 and 3.
+Period-doubling fireship tagalong	christoph.r
+A tagalong for a flotilla of three fireships which increases its period to 20.
+p4 bouncer	Arie Paap, Noam Elkies
+The fastest known p4 reflector.
+Huge 2D-extensible wick-supporting pushalong	Hartmut Holzwart
+Non-monotonic 2c/5 orthogonal spaceship	Arie Paap, Matthias Merzenich, Bullet51
+p9 bouncer	Matthias Merzenich, carybe, Noam Elkies
+A reflector capable of reflecting a p27 glider stream using 68P9, which was found using apgsearch the same day.
+p6 180-degree reflector and related guns	Arie Paap, Tanner Jacobi, Louis-François Handfield
+A reflector which can be used alongside other sparkers to create arbitrary guns with period (60n+30).
+Fast universal regulators	Dave Greene
+Homer ( =42883M)	Adam P. Goucher
+A 16×16 soup found by apgsearch, and the longest-lasting known methuselah fitting within a 16×16 bounding box.
+New honey farm hasslers
+A collective entry for a few oscillators of periods 36 and 40 which use honey farm-hassling reactions.
