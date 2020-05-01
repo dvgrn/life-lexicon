@@ -34,7 +34,7 @@ TBD: Review :glider synthesis:
 TBD: pointer from :17c/45 spaceship: to :pi climber: and vice versa.
 
 TBD: Pattern of the Year 2018 updates --
-
+https://conwaylife.com/forums/viewtopic.php?p=67446#p67446
 0E0P metacell	Adam P. Goucher
 A unit cell which does not require a background grid of metacells to function, proving the existence of unusual classes of patterns such as quadratic replicators and RROs in Conway's Game of Life "imported" from other rules.
 Reverse caber-tosser	Adam P. Goucher, Dave Greene, Chris Cain
@@ -98,3 +98,33 @@ Homer ( =42883M)	Adam P. Goucher
 A 16×16 soup found by apgsearch, and the longest-lasting known methuselah fitting within a 16×16 bounding box.
 New honey farm hasslers
 A collective entry for a few oscillators of periods 36 and 40 which use honey farm-hassling reactions.
+
+TBD: POTY 2019 updates --
+https://conwaylife.com/forums/viewtopic.php?p=88378#p88378
+#01 Systematic survey of small patterns: a systematic survey of all patterns up to 9 cells, as well as a survey of all single-cluster 10-cell patterns resulting in the discovery of two record-breaking 10-celled methuselae, bunnies 10a and bunnies 10b. (Nick Gotts)
+#02 Cheap still life syntheses: significant improvements in the upper bounds of glider construction costs for small still lifes, including all 17-cell still lifes in at most 16 gliders and all 18-cell still lifes in at most 38 gliders. (Tanner Jacobi, Goldtiger997, Jeremy Tan, Adam P. Goucher, Chris Cain, 2718281828, et al.)
+#03 Stably supported cyclotron gun: a gun based on Dean Hickerson's Cyclotron using only stable components for support. (Goldtiger997, Paul Callahan, and Adam P. Goucher)
+#04 66P13 and variations: period-13 sparkers that can support a number of interactions including p13 wicks, p13 bumpers, and p26 oscillators. (Bullet51 and Aidan F. Pierce)
+#05 Slavic: the current smallest universal-constructor based quadratic growth pattern. (Pavel Grankovskiy)
+#06 Scholar: the second elementary 2c/7 spaceship, discovered with the novel search program LSSS. (Andrew Wade)
+#07 46P4H1V0 synthesis and gun: The first synthesis and gun for a c/4 orthogonal spaceship. (Tanner Jacobi, Matthias Merzenich, Martin Grant, and Goldtiger997)
+#08 David Hilbert: the first known period-23 oscillator and the first new oscillator period in over half a decade. (Luka Okanishi and Aidan F. Pierce)
+#09 p250 c/10 orthogonal rake: the first c/10 rake with a period below 320, and the lowest period so far achieved for a c/10 rake. (christoph.r)
+#10 Remini: a universal constructor based puffer, made only with p30 technology theoretically available since the 1970s. (Michael Simkin)
+#11 230P8: high-clearance p8 domino sparker that can support interesting interactions including a period-32 phase-shift oscillator. (Fredrick Johansson)
+#12 New gun designs: clever new gun components that allow the reduction of a large number of glider guns in the small guns collection. (Tanner Jacobi)
+#13 Mountain range patterns: patterns exhibiting irregular and inconsistent growth, due to complex glider interactions that result in emergent shapes with the appearance of mountain ranges. (Dean Hickerson)
+#14 Hackersaw: a logarithmic growth pattern with a sawtooth-like population graph. (Gustone)
+#15 47575M and relatives: a record-breaking non-switch-engine-based methuselah found with apgsearch. (Adam P. Goucher)
+#16 60-line c/10 printer, an easy-to-use c/10 printer that can copy and print a picture 60 lines tall. (GilGil)
+#17 Dueling banjos and gun: a new period-24 oscillator and resulting compact p24 gun. (Apple Bottom, Tanner Jacobi, and Matthias Merzenich)
+#18 p49 skewed pulsar hassler: the first known p49 that isn't a glider loop. (Martin Grant, based on a supported version found by Jason Summers)
+#19 Knightwave stabilization: a completed grammar allowing for an infinite number of distinct (2,1)c/6 knightships (Matthias Merzenich and Adam P. Goucher)
+#20 R49: a useful and compact pre-Herschel turner/advancer conduit. (Entity Valkyrie and Luka Okanishi)
+#21 Spider synthesis: the largest elementary spaceship synthesis to date, and the first synthesis of a c/5 spaceship. (Original synthesis by Martin Grant, with reductions by many)
+#22 Phoenix agars: oscillating patterns living on a period-2 phoenix background that emulate some bounded rule 18 patterns. A more detailed explanation is given here. A nice demonstration of the period-120 variant can be seen here. (Alex Greason, BlinkerSpawn, Dongook Lee, and Fredrick Johansson)
+#23 Stable glider-to-spaceship converters: stable patterns that convert gliders into small synthesizable spaceships (crab, 25P3H1V0.2, and 27P4H1V1). (Goldtiger997)
+#24 27P4H1V1 synthesis and gun: the first synthesis of 27P4H1V1, and the first gun to fire this spaceship. (Goldtiger997, BlinkerSpawn, and Entity Valkyrie)
+#25 Spaghetti monster eater and Heisenburp: the first patterns capable of cleanly deleting and detecting without eating a 3c/7 spaceship. (Martin Grant and Goldtiger997)
+#26 99 bottles of beer on the wall: a pattern that prints the song "99 bottles of beer on the wall". (Michael Simkin)
+#27 New mid-period sparkers: a collection of useful mid-period (6-8) sparkers. (2718281828, Aidan F. Pierce, Martin Grant, and Dongook Lee)
