@@ -128,3 +128,5 @@ https://conwaylife.com/forums/viewtopic.php?p=88378#p88378
 #25 Spaghetti monster eater and Heisenburp: the first patterns capable of cleanly deleting and detecting without eating a 3c/7 spaceship. (Martin Grant and Goldtiger997)
 #26 99 bottles of beer on the wall: a pattern that prints the song "99 bottles of beer on the wall". (Michael Simkin)
 #27 New mid-period sparkers: a collection of useful mid-period (6-8) sparkers. (2718281828, Aidan F. Pierce, Martin Grant, and Dongook Lee)
+TODO:  Document the beehive keeper:
+https://www.conwaylife.com/forums/viewtopic.php?p=44305#p44305
