@@ -33,6 +33,9 @@ TBD: Review :glider synthesis:
 
 TBD: pointer from :17c/45 spaceship: to :pi climber: and vice versa.
 
+TBD: https://conwaylife.com/wiki/Talk:Motif --
+  "Regarding proposed move on component, I strongly agree to make synthesis component a standalone article and possibly elaborate efforts from Buckingham, Niemiec, Koenig, etc. Remember to rewrite that Life Lexicon entry in the next update, lexicographers!"
+  
 TBD: Pattern of the Year 2018 updates --
 https://conwaylife.com/forums/viewtopic.php?p=67446#p67446
 0E0P metacell	Adam P. Goucher
