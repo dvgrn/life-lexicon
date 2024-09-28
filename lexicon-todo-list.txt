@@ -104,178 +104,311 @@ A collective entry for a few oscillators of periods 36 and 40 which use honey fa
 
 TBD: POTY 2019 updates --
 https://conwaylife.com/forums/viewtopic.php?p=88378#p88378
-#01 Systematic survey of small patterns: a systematic survey of all patterns up to 9 cells, as well as a survey of all single-cluster 10-cell patterns resulting in the discovery of two record-breaking 10-celled methuselae, bunnies 10a and bunnies 10b. (Nick Gotts)
-#02 Cheap still life syntheses: significant improvements in the upper bounds of glider construction costs for small still lifes, including all 17-cell still lifes in at most 16 gliders and all 18-cell still lifes in at most 38 gliders. (Tanner Jacobi, Goldtiger997, Jeremy Tan, Adam P. Goucher, Chris Cain, 2718281828, et al.)
-#03 Stably supported cyclotron gun: a gun based on Dean Hickerson's Cyclotron using only stable components for support. (Goldtiger997, Paul Callahan, and Adam P. Goucher)
-#04 66P13 and variations: period-13 sparkers that can support a number of interactions including p13 wicks, p13 bumpers, and p26 oscillators. (Bullet51 and Aidan F. Pierce)
-#05 Slavic: the current smallest universal-constructor based quadratic growth pattern. (Pavel Grankovskiy)
-#06 Scholar: the second elementary 2c/7 spaceship, discovered with the novel search program LSSS. (Andrew Wade)
-#07 46P4H1V0 synthesis and gun: The first synthesis and gun for a c/4 orthogonal spaceship. (Tanner Jacobi, Matthias Merzenich, Martin Grant, and Goldtiger997)
-#08 David Hilbert: the first known period-23 oscillator and the first new oscillator period in over half a decade. (Luka Okanishi and Aidan F. Pierce)
-#09 p250 c/10 orthogonal rake: the first c/10 rake with a period below 320, and the lowest period so far achieved for a c/10 rake. (christoph.r)
-#10 Remini: a universal constructor based puffer, made only with p30 technology theoretically available since the 1970s. (Michael Simkin)
-#11 230P8: high-clearance p8 domino sparker that can support interesting interactions including a period-32 phase-shift oscillator. (Fredrick Johansson)
-#12 New gun designs: clever new gun components that allow the reduction of a large number of glider guns in the small guns collection. (Tanner Jacobi)
-#13 Mountain range patterns: patterns exhibiting irregular and inconsistent growth, due to complex glider interactions that result in emergent shapes with the appearance of mountain ranges. (Dean Hickerson)
-#14 Hackersaw: a logarithmic growth pattern with a sawtooth-like population graph. (Gustone)
-#15 47575M and relatives: a record-breaking non-switch-engine-based methuselah found with apgsearch. (Adam P. Goucher)
-#16 60-line c/10 printer, an easy-to-use c/10 printer that can copy and print a picture 60 lines tall. (GilGil)
-#17 Dueling banjos and gun: a new period-24 oscillator and resulting compact p24 gun. (Apple Bottom, Tanner Jacobi, and Matthias Merzenich)
-#18 p49 skewed pulsar hassler: the first known p49 that isn't a glider loop. (Martin Grant, based on a supported version found by Jason Summers)
-#19 Knightwave stabilization: a completed grammar allowing for an infinite number of distinct (2,1)c/6 knightships (Matthias Merzenich and Adam P. Goucher)
-#20 R49: a useful and compact pre-Herschel turner/advancer conduit. (Entity Valkyrie and Luka Okanishi)
-#21 Spider synthesis: the largest elementary spaceship synthesis to date, and the first synthesis of a c/5 spaceship. (Original synthesis by Martin Grant, with reductions by many)
-#22 Phoenix agars: oscillating patterns living on a period-2 phoenix background that emulate some bounded rule 18 patterns. A more detailed explanation is given here. A nice demonstration of the period-120 variant can be seen here. (Alex Greason, BlinkerSpawn, Dongook Lee, and Fredrick Johansson)
-#23 Stable glider-to-spaceship converters: stable patterns that convert gliders into small synthesizable spaceships (crab, 25P3H1V0.2, and 27P4H1V1). (Goldtiger997)
-#24 27P4H1V1 synthesis and gun: the first synthesis of 27P4H1V1, and the first gun to fire this spaceship. (Goldtiger997, BlinkerSpawn, and Entity Valkyrie)
-#25 Spaghetti monster eater and Heisenburp: the first patterns capable of cleanly deleting and detecting without eating a 3c/7 spaceship. (Martin Grant and Goldtiger997)
-#26 99 bottles of beer on the wall: a pattern that prints the song "99 bottles of beer on the wall". (Michael Simkin)
-#27 New mid-period sparkers: a collection of useful mid-period (6-8) sparkers. (2718281828, Aidan F. Pierce, Martin Grant, and Dongook Lee)
+Systematic survey of small patterns: a systematic survey of all patterns up to 9 cells, as well as a survey of all single-cluster 10-cell patterns resulting in the discovery of two record-breaking 10-celled methuselae, bunnies 10a and bunnies 10b. (Nick Gotts)
+Cheap still life syntheses: significant improvements in the upper bounds of glider construction costs for small still lifes, including all 17-cell still lifes in at most 16 gliders and all 18-cell still lifes in at most 38 gliders. (Tanner Jacobi, Goldtiger997, Jeremy Tan, Adam P. Goucher, Chris Cain, 2718281828, et al.)
+Stably supported cyclotron gun: a gun based on Dean Hickerson's Cyclotron using only stable components for support. (Goldtiger997, Paul Callahan, and Adam P. Goucher)
+66P13 and variations: period-13 sparkers that can support a number of interactions including p13 wicks, p13 bumpers, and p26 oscillators. (Bullet51 and Aidan F. Pierce)
+Slavic: the current smallest universal-constructor based quadratic growth pattern. (Pavel Grankovskiy)
+Scholar: the second elementary 2c/7 spaceship, discovered with the novel search program LSSS. (Andrew Wade)
+46P4H1V0 synthesis and gun: The first synthesis and gun for a c/4 orthogonal spaceship. (Tanner Jacobi, Matthias Merzenich, Martin Grant, and Goldtiger997)
+David Hilbert: the first known period-23 oscillator and the first new oscillator period in over half a decade. (Luka Okanishi and Aidan F. Pierce)
+p250 c/10 orthogonal rake: the first c/10 rake with a period below 320, and the lowest period so far achieved for a c/10 rake. (christoph.r)
+Remini: a universal constructor based puffer, made only with p30 technology theoretically available since the 1970s. (Michael Simkin)
+230P8: high-clearance p8 domino sparker that can support interesting interactions including a period-32 phase-shift oscillator. (Fredrick Johansson)
+New gun designs: clever new gun components that allow the reduction of a large number of glider guns in the small guns collection. (Tanner Jacobi)
+Mountain range patterns: patterns exhibiting irregular and inconsistent growth, due to complex glider interactions that result in emergent shapes with the appearance of mountain ranges. (Dean Hickerson)
+Hackersaw: a logarithmic growth pattern with a sawtooth-like population graph. (Gustone)
+47575M and relatives: a record-breaking non-switch-engine-based methuselah found with apgsearch. (Adam P. Goucher)
+60-line c/10 printer, an easy-to-use c/10 printer that can copy and print a picture 60 lines tall. (GilGil)
+Dueling banjos and gun: a new period-24 oscillator and resulting compact p24 gun. (Apple Bottom, Tanner Jacobi, and Matthias Merzenich)
+p49 skewed pulsar hassler: the first known p49 that isn't a glider loop. (Martin Grant, based on a supported version found by Jason Summers)
+Knightwave stabilization: a completed grammar allowing for an infinite number of distinct (2,1)c/6 knightships (Matthias Merzenich and Adam P. Goucher)
+R49: a useful and compact pre-Herschel turner/advancer conduit. (Entity Valkyrie and Luka Okanishi)
+Spider synthesis: the largest elementary spaceship synthesis to date, and the first synthesis of a c/5 spaceship. (Original synthesis by Martin Grant, with reductions by many)
+Phoenix agars: oscillating patterns living on a period-2 phoenix background that emulate some bounded rule 18 patterns. A more detailed explanation is given here. A nice demonstration of the period-120 variant can be seen here. (Alex Greason, BlinkerSpawn, Dongook Lee, and Fredrick Johansson)
+Stable glider-to-spaceship converters: stable patterns that convert gliders into small synthesizable spaceships (crab, 25P3H1V0.2, and 27P4H1V1). (Goldtiger997)
+27P4H1V1 synthesis and gun: the first synthesis of 27P4H1V1, and the first gun to fire this spaceship. (Goldtiger997, BlinkerSpawn, and Entity Valkyrie)
+Spaghetti monster eater and Heisenburp: the first patterns capable of cleanly deleting and detecting without eating a 3c/7 spaceship. (Martin Grant and Goldtiger997)
+99 bottles of beer on the wall: a pattern that prints the song "99 bottles of beer on the wall". (Michael Simkin)
+New mid-period sparkers: a collection of useful mid-period (6-8) sparkers. (2718281828, Aidan F. Pierce, Martin Grant, and Dongook Lee)
 
 TBD:  Document the beehive keeper:
 https://www.conwaylife.com/forums/viewtopic.php?p=44305#p44305
 
 TBD: POTY 2020 updates ( https://conwaylife.com/wiki/Pattern_of_the_Year#2020 )
-=1 Bandersnatch (Martin Grant and Entity Valkyrie)
+Bandersnatch (Martin Grant and Entity Valkyrie)
 A color-changing glider-to-glider conduit, which can be used to solve glider color mismatches.
-=1 Speed Demonoid (Pavel Grankovskiy, Dave Greene, Tanner Jacobi, and Goldtiger997)
+Speed Demonoid (Pavel Grankovskiy, Dave Greene, Tanner Jacobi, and Goldtiger997)
 A self-constructing diagonal spaceship with speed limit c/4 due to using a crab wickstretcher.
-3 Spaceship glider syntheses (Goldtiger997, Tanner Jacobi, Martin Grant, et al.)
+Spaceship glider syntheses (Goldtiger997, Tanner Jacobi, Martin Grant, et al.)
 Glider syntheses for 56P6H1V0, 58P5H1V1, turtle, 31P8H4V0, 70P2H1V0.1, 55P9H3V0, and 44P5H2V0, many of which were the first of their unsymplified speed to be synthesized.
-=4 Smaller 3c/7 spaceships (Dylan Chen)
+Smaller 3c/7 spaceships (Dylan Chen)
 Anura and Soba, the second and third known elementary 3c/7 spaceships, both of which are smaller than the first known 3c/7 spaceship, spaghetti monster.
-=4 Rob's p16 (Rob Liston)
+Rob's p16 (Rob Liston)
 A useful sparker, as well as the smallest-known and first strictly volatile oscillator of its period, found when it occurred in the ash of an asymmetric Catagolue soup.
-6 Period-28 glider gun (Matthias Merzenich and Paul Callahan)
+Period-28 glider gun (Matthias Merzenich and Paul Callahan)
 The first true period-28 gun.
-7 Silverfish (Chris Cain, Dave Greene, Adam P. Goucher, and Nathaniel Johnston)
+Silverfish (Chris Cain, Dave Greene, Adam P. Goucher, and Nathaniel Johnston)
 A new smallest spaceship to use the 31c/240 Herschel climber.
-8 Cheaper fixed-cost universal construction (Chris Cain, Adam P. Goucher Daniel Vargas, and MathAndCode)
+Cheaper fixed-cost universal construction (Chris Cain, Adam P. Goucher Daniel Vargas, and MathAndCode)
 Reductions in the cost of reverse caber-tosser-based universal construction by figuring out how to split a target block with gliders instead of needing to use a block-laying switch engine, removing the need for a Sakapuffer, and reducing the number of glider-producing switch enginges required in the circuitry.
-9 19-bit still life syntheses (Jeremy Tan, Dave Greene, Tanner Jacobi, Goldtiger997, Martin Grant, Alex Greason, BlinkerSpawn, et al.)
+19-bit still life syntheses (Jeremy Tan, Dave Greene, Tanner Jacobi, Goldtiger997, Martin Grant, Alex Greason, BlinkerSpawn, et al.)
 Glider syntheses for all 19-bit still lifes.
-=10 New 2c/7 technology (John Winston Garth, Andrew J. Wade)
+New 2c/7 technology (John Winston Garth, Andrew J. Wade)
 Two new 2c/7 spaceships, 186P7H2V0 and doo-dah used to help make puffers and rakes.
-=10 Natural loafers (John Goodman, Rob Liston, Adam P. Goucher)
+Natural loafers (John Goodman, Rob Liston, Adam P. Goucher)
 Catagolue soups in the C1 and G1 symmetries that produce the twenty-cell loafer, making it the first spaceship not at the maximum speed for its direction to be found in a random asymmetric soup in B3/S23.
-12 Stable barge crosser (Goldtiger997)
+Stable barge crosser (Goldtiger997)
 A way to transmit a glider signal across an infinitely long barge without permanently damaging it.
-13 New grayship technology (Keith Amling, Hartmut Holzwart, and Matthias Merzenich)
+New grayship technology (Keith Amling, Hartmut Holzwart, and Matthias Merzenich)
 A large collection of new grayship components of varying speeds.
-14 Beehive push catalyst (Tanner Jacobi)
+Beehive push catalyst (Tanner Jacobi)
 A stable catalyst that allows the beehive push reaction, where a beehive affects an active region while being displaced by one cell orthogonally, to be used repeatedly in situations where there is not another synchronized mechanism to push it back, such as in conduits.
-15 New longest-lasting 16x16 methuselah (Rob Liston and Goldtiger997)
+New longest-lasting 16x16 methuselah (Rob Liston and Goldtiger997)
 An asymmetric 16x16 soup found with Catagolue that takes longer to stabilize than any previous asymmetric non-infinite-growth 16x16 soup, and a related 16x16 pattern that takes one generation longer to form generation five of said random soup.
-16 New c/5 diagonal spaceships (AforAmpere, Sarp, praosylen, John Winston Garth, and Dylan Chen)
+New c/5 diagonal spaceships (AforAmpere, Sarp, praosylen, John Winston Garth, and Dylan Chen)
 Several new c/5 diagonal spaceships of varying shapes.
-17 Small c/5 diagonal puffer (Peter Naszvadi)
+Small c/5 diagonal puffer (Peter Naszvadi)
 An elegant period-1540 c/5 diagonal puffer that uses only three copies of 58P5H1V1.
-18 New small Corderships (wwei23 and Ian07)
+New small Corderships (wwei23 and Ian07)
 Several new three-engine and four-engine Corderships (including one with period 192) found using a custom apgsearch symmetry.
-=19 New agar crawler/agar bubble/skimmer/agar clearer technology (Arie Paap, Keith Amling, Hartmut Holzwart, et al.)
+New agar crawler/agar bubble/skimmer/agar clearer technology (Arie Paap, Keith Amling, Hartmut Holzwart, et al.)
 Mechanisms to add, remove, travel along, or travel within agar.
-=19 c/5 and c/6 guns (Entity Valkyrie, Goldtiger997, et al.)
+c/5 and c/6 guns (Entity Valkyrie, Goldtiger997, et al.)
 The first known guns for c/5 orthogonal, c/5 diagonal, and c/6 orthogonal spaceships.
-=21	New exotic spaceship eaters and spaceship-to-G converters (Jeremy Tan, Luka Okanishi, Dave Greene, Adam P. Goucher, Tanner Jacobi, praosylen, et al.)
+New exotic spaceship eaters and spaceship-to-G converters (Jeremy Tan, Luka Okanishi, Dave Greene, Adam P. Goucher, Tanner Jacobi, praosylen, et al.)
 New mechanisms to eat spaceships or turn them into glider signals
-=21 Glider syntheses from Glider_stdin (testitemqlstudop, Tanner Jacobi, Arie Paap, GUYTU6J, goldenratio, et al.)
+Glider syntheses from Glider_stdin (testitemqlstudop, Tanner Jacobi, Arie Paap, GUYTU6J, goldenratio, et al.)
 Glider syntheses based on a result from a custom Catagolue symmetry where gliders are fired at each other in a random configuration.
-=21 Period-9 heavyweight sparker and associated R shuttle (wwei23, praosylen, and David Raucci)
+Period-9 heavyweight sparker and associated R shuttle (wwei23, praosylen, and David Raucci)
 Period-nine domino sparker that has two dot sparks displaced (2.5, 1) from the center of the domino spark, making it a heavyweight emulator, and has better clearance than the previous known period-nine domino sparker, allowing it and an eater 2 to form a periodic RFx9R conduit that can be attached to another copy of itself to form a shuttle
-24 Stable L122 (praosylen)
+Stable L122 (praosylen)
 A stable version of the L122 conduit, which previously only had periodic versions.
-25 New c/10 orthogonal technology (Christoph Reinthaler)
+New c/10 orthogonal technology (Christoph Reinthaler)
 Arrangements of copperheads and fireships that perform various tasks, such as firing a stream of loafers backwards.
-=26 New XWSS signal technology (Dave Greene, Adam P. Goucher, and Goldtiger997)
+New XWSS signal technology (Dave Greene, Adam P. Goucher, and Goldtiger997)
 Improved mechanisms for detecting XWSS signals.
-=26 Cordercolumn and extruder (wwei23, Luka Okanishi, and Ian07)
+Cordercolumn and extruder (wwei23, Luka Okanishi, and Ian07)
 Two ways to stabilize a switch engine with another switch engine behind it and an extruder that emits a line of switch engines using one of the methods.
-=26 New c/6 diagonal pushalong (praosylen)
+New c/6 diagonal pushalong (praosylen)
 The first new piece of low-period c/6 diagonal technology in 9 years.
-=26 Better universal regulator (Louis-François Handfield)
+Better universal regulator (Louis-François Handfield)
 A device that can align a set of input glider signals with no period constraints to any output period greater than 73 that is smaller and faster than any previous universal regulator.
-=26 c/61 near-spaceship and slide gun support (Tanner Jacobi and Goldtiger997)
+c/61 near-spaceship and slide gun support (Tanner Jacobi and Goldtiger997)
 A reaction consisting of a pulsar interacting with two blocks that results in the same confirmation 61 generations later shifted by one cell orthogonally if supplied with two dot sparks or certain fishhook-type interactions, which can be provided with gliders from slide guns.
-=31 Record-setting diehards (Rob Liston, goldenratio, and Moth-Wingthane)
+Record-setting diehards (Rob Liston, goldenratio, and Moth-Wingthane)
 Patterns found from soup searches searches that take longer to settle without leaving any ash than any previously known patterns fitting in a bounding box of the same size.
-=31 4×N block agar construction (Goldtiger997)
+4×N block agar construction (Goldtiger997)
 A way to extend the pseudo still life consisting of a 4×3 rectangle of blocks to a 4×N rectangle for arbitrarily high N using gliders.
-=31 Width-12 c/6 orthogonal spaceship (Andrew J. Wade)
+Width-12 c/6 orthogonal spaceship (Andrew J. Wade)
 The first width-12 asymmetric c/6 orthogonal spaceship, which has the minimum possible width for a asymmetric period-6 spaceship of this speed.
-34 Loafer bitmap printer (otismo)
+Loafer bitmap printer (otismo)
 A collection of loafer guns that can be toggled by a glider memory tape to produce a message in loafer-pixels.
-35 34-bit still life enumeration (Nathaniel Johnston)
+34-bit still life enumeration (Nathaniel Johnston)
 An enumeration of all 34-bit still lifes and pseudo still lifes, which confirmed that the quad pseudo still life is the unique 34-bit pseudo still life requiring a decomposition into 4 or more pieces.
-36 p5 drifter-like catalyst/lightweight volcano/periodic catalyst (wwei23 and Dongook Lee)
+p5 drifter-like catalyst/lightweight volcano/periodic catalyst (wwei23 and Dongook Lee)
 An oscillator that periodically creates then kills via overpopulation a "block face", allowing it to be used to perturb regions in the same manner as several catalysts without permanently harming the oscillator.
-37 New growing spaceships (Matthias Merzenich and praosylen)
+New growing spaceships (Matthias Merzenich and praosylen)
 Patterns in which spaceships create a wick that is consumed at a slower speed than it is created at.
-38 Period-10 glider shuttle (Martin Grant)
+Period-10 glider shuttle (Martin Grant)
 The lowest known period for a glider shuttle.
-39 Extensible LoM hasslers (James Pascua, wwei23, and Matthias Merzenich)
+Extensible LoM hasslers (James Pascua, wwei23, and Matthias Merzenich)
 
 TBD: POTY 2021 updates ( https://conwaylife.com/wiki/Pattern_of_the_Year#2021 )
-1 Self-synthesizing oblique loopship (Goldtiger997)
+Self-synthesizing oblique loopship (Goldtiger997)
 The first SMOG (spaceship made of gliders) in Conway's Life. Arguably the first SMOS (spaceship made of spaceships) of any kind that can be run by Golly, since 0E0P-based SMOSes are much too large to simulate in practice.
-2 Reflectorless rotating oscillator (Goldtiger997)
+Reflectorless rotating oscillator (Goldtiger997)
 The first example of an RRO in Conway's Life that can easily be simulated through multiple cycles -- max loopability 11.
-=3 Traffic stop catalyst (cvojan)
+Traffic stop catalyst (cvojan)
 An extremely versatile p2 catalyst.
-=3 DOGun SaGaQR (Pavel Grankovskiy)
+DOGun SaGaQR (Pavel Grankovskiy)
 A "shape-shifting" self-constructing pattern that can be trivially altered by one-tick adjustments to one key glider to make a predecessor of empty space ("D"=Diehard), a p100663296 oscillator ("O"=Oscillator),a 4-barrelled glider gun ("Gun"), an orthogonal c/24 spaceship ("S"=Spaceship), a single glider ("G"=Glider), or a quadratic-growth replicator("QR"=Quadratic Replicator).
-=5 New spaceship syntheses (goldenratio, bubblegum, Mark Niemiec, iNoMed, Goldtiger997, and Martin Grant)
+New spaceship syntheses (goldenratio, bubblegum, Mark Niemiec, iNoMed, Goldtiger997, and Martin Grant)
 Several complex recipes for previously unsynthesizable spaceships, including greyships of any desired size (the first being Canada Grey), as well as edge-repair spaceship 1
-=5 New gun engines (David Raucci, Matthias Merzenich, Luka Okanishi, Tanner Jacobi, Martin Grant, Entity Valkyrie, Adam P. Goucher, iNoMed, Louis-François Handfield, Daniel Vargas, praosylen, Jiahao Yu, James Pascua, wwei23, AforAmpere, EvinZL, and FWKnightship)
+New gun engines (David Raucci, Matthias Merzenich, Luka Okanishi, Tanner Jacobi, Martin Grant, Entity Valkyrie, Adam P. Goucher, iNoMed, Louis-François Handfield, Daniel Vargas, praosylen, Jiahao Yu, James Pascua, wwei23, AforAmpere, EvinZL, and FWKnightship)
 Many new periodic engines that allow for the extraction of output gliders.
-7 New (2,1)c/6 technology (Dylan Chen, Adam P. Goucher, May13, wwei23, cvojan, Dave Greene, Louis-François Handfield, Peter Naszvadi, and Daniel Vargas)
+New (2,1)c/6 technology (Dylan Chen, Adam P. Goucher, May13, wwei23, cvojan, Dave Greene, Louis-François Handfield, Peter Naszvadi, and Daniel Vargas)
 The second known elementary knightship and associated period-12N puffers, rakes, and new spaceship connection types
-8 New scalable programmable computer (Nicolas Loizeau)
+New scalable programmable computer (Nicolas Loizeau)
 New features and improvements include 90 pre-computed patterns, variable size range from 8 to 32, new instructions to handle arrays, variables usable as memory addresses, shift and rotate instructions, 32x32 pixels display, and circuitry optimization with Snark reflectors.
-9 New high-period oscillators (David Raucci, Entity Valkyrie, James Pascua, Matthias Merzenich, wwei23, praosylen, Daniel Vargas, iNoMed, AforAmpere, EvinZL, Martin Grant, and FWKnightship	Too many to list; a compilation (without forum links) can be found in Entity Valkyrie's userspace
+New high-period oscillators (David Raucci, Entity Valkyrie, James Pascua, Matthias Merzenich, wwei23, praosylen, Daniel Vargas, iNoMed, AforAmpere, EvinZL, Martin Grant, and FWKnightship	Too many to list; a compilation (without forum links) can be found in Entity Valkyrie's userspace
 Many new oscillators with periods greater than 12 found primarily with Raucci's impressively simple and effective search script for oscillator engine candidates.
-10 hotcrystal0 mechanism (hotcrystal0, wwei23, Entity Valkyrie, praosylen, iNoMed, and May13)
+hotcrystal0 mechanism (hotcrystal0, wwei23, Entity Valkyrie, praosylen, iNoMed, and May13)
 A new glider duplication mechanism capable, among other things, of reducing the size of a significant number of lower-period glider guns.
-=11 QuickSilver Demonoid (googolplex and Pavel Grankovskiy)
+QuickSilver Demonoid (googolplex and Pavel Grankovskiy)
 A "steampunk" Demonoid using retro technology available in the 1990s, mainly Silver reflectors, but modern single-channel construction recipes and techniques.
-=11 new 3c/7 technology (Dylan Chen, Goldtiger997, Matthias Merzenich, iNoMed, bubblegum, Dave Greene, AforAmpere, wwei23, and May13)
+new 3c/7 technology (Dylan Chen, Goldtiger997, Matthias Merzenich, iNoMed, bubblegum, Dave Greene, AforAmpere, wwei23, and May13)
 A significant expansion of known 3c/7 technology including the first 3c/7 rakes, many new spaceships of various periods, and several new engine-based puffers.
-13 New SKOPs (David Raucci, praosylen, iNoMed, 83bismuth38, cvojan, and Matthias Merzenich)
+New SKOPs (David Raucci, praosylen, iNoMed, 83bismuth38, cvojan, and Matthias Merzenich)
 New Smallest Known Oscillators of various Periods. The term "SKOP" is from Jeremy Tan's "Skopje" collection of smallest known oscillators. These include a new p25 pre-pulsar shuttle, a p32 honey farm hassler, 66P62, Raucci's p74, a p76 pi-heptomino hassler, a p96 honey farm hassler, a p128 wing shuttle, and a p196 pi-heptomino hassler.
-=14 Twenty-bit still life syntheses (Dave Greene, bubblegum, Alex Greason, Tanner Jacobi, Jeremy Tan, Goldtiger997, Entity Valkyrie, GUYTU6J, Martin Grant, goldenratio, ENORMOUS_NAME, Matthias Merzenich, Daniel Vargas, and iNoMed)
+Twenty-bit still life syntheses (Dave Greene, bubblegum, Alex Greason, Tanner Jacobi, Jeremy Tan, Goldtiger997, Entity Valkyrie, GUYTU6J, Martin Grant, goldenratio, ENORMOUS_NAME, Matthias Merzenich, Daniel Vargas, and iNoMed)
 Glider syntheses for all twenty-cell still lifes
-=14 Ash-clearing mechanism (Andrew J. Wade)
+Ash-clearing mechanism (Andrew J. Wade)
 Demonstration patterns and scripts showing for the first time a plausible mechanism for a "space-clearing" self-replicator with better than 50% odds of being able to clear out a replicator-sized area of settled random ash.
-16 Strictly volatile p4 oscillator (Dongook Lee)
+Strictly volatile p4 oscillator (Dongook Lee)
 The first known period-4 oscillator with a strict volatility of 1 (no cells oscillating at any subperiod, in this case periods 1 or 2).
-=17 New c/6 orthogonal technology (FWKnightship, Keith Amling, May13, and iNoMed)
+New c/6 orthogonal technology (FWKnightship, Keith Amling, May13, and iNoMed)
 The first c/6 orthogonal rakes, based on new debris-clearing spaceships.
-=17 Herschel merge circuit (Entity Valkyrie and Luka Okanishi)
+Herschel merge circuit (Entity Valkyrie and Luka Okanishi)
 The first known elementary merge circuit with two direct Herschel inputs and one Herschel output.
-19 12-in-7 and 15-in-11 projects (iNoMed, Tanner Jacobi, BlinkerSpawn, goldenratio, Oscar Cunningham, Goldtiger997, May13, Daniel Vargas, and Martin Grant)
+12-in-7 and 15-in-11 projects (iNoMed, Tanner Jacobi, BlinkerSpawn, goldenratio, Oscar Cunningham, Goldtiger997, May13, Daniel Vargas, and Martin Grant)
 Glider syntheses of all still lifes with twelve (or fewer) cells using at most seven gliders, and fifteen or fewer cells using at most eleven gliders
-20 New c/6 diagonal spaceships (Frank Everdij, Bullet51, and wwei23)
+New c/6 diagonal spaceships (Frank Everdij, Bullet51, and wwei23)
 The number of known c/6 diagonal spaceships increased considerably this year, including some with new tailsparks and sidesparks capable of supporting a variety of tagalongs and pushalongs.
-=21 Fast components (Daniel Vargas, iNoMed, Tanner Jacobi, wwei23, and BlinkerSpawn)
+Fast components (Daniel Vargas, iNoMed, Tanner Jacobi, wwei23, and BlinkerSpawn)
 Timing-dependent ways to stabilize reactions that almost make still lifes or alter still life-creating reactions or slow components before they settle in order to modify the final result
-=21 New record methuselahs (Dylan Chen, Rocknlol, Adam P. Goucher, Daniel Vargas, and Tanner Jacobi)
+New record methuselahs (Dylan Chen, Rocknlol, Adam P. Goucher, Daniel Vargas, and Tanner Jacobi)
 New methuselahs with record lifespans, including 50093M and 52513M, based on soups discovered with apgsearch.
-=21 Chicken wire grayships (Hartmut Holzwart and Arie Paap)
+Chicken wire grayships (Hartmut Holzwart and Arie Paap)
 Many new components for constructing chicken wire grayships including slope-0 back ends for almost all wire lengths.
-=24 New p7 domino sparkers (wwei23, BlinkerSpawn, iNoMed, James Pascua, cvojan, and Dongook Lee)
+New p7 domino sparkers (wwei23, BlinkerSpawn, iNoMed, James Pascua, cvojan, and Dongook Lee)
 Oscillators that provide a domino spark every seven generations, which can be used to support other reactions. Notable discoveries in 2021 include 62P7 and 678P7.
-=24 New c/10 technology (Christoph Reinthaler, otismo, Goldtiger997, Louis-François Handfield, and Dave Greene)
+New c/10 technology (Christoph Reinthaler, otismo, Goldtiger997, Louis-François Handfield, and Dave Greene)
 New c/10 orthogonal glider perturbation reactions, rake periods, and complex patterns.
-26 Much smaller glider to weekender/doo-dah converter (Dave Greene and Goldtiger997)
+Much smaller glider to weekender/doo-dah converter (Dave Greene and Goldtiger997)
 2021's enormously reduced weekender recipe allowed for a glider-to-weekender converter to fit into a quarter of its previous area, even including an additional mechanism to build/not build a doo-dah tagalong by moving an input glider.
-27 p18 glider reflectors (David Raucci, Matthias Merzenich, and EvinZL)
+p18 glider reflectors (David Raucci, Matthias Merzenich, and EvinZL)
 Period-18 glider reflectors including the first 90-degree reflector capable of reflecting a period-18 glider stream.
-28 2c/5 ant waveguide (Matthias Merzenich, Adam P. Goucher, and Nicolay Beluchenko)
+2c/5 ant waveguide (Matthias Merzenich, Adam P. Goucher, and Nicolay Beluchenko)
 A previously unknown type of spaceship connection, where an ants wick is escorted by a 2c/5 orthogonal antstretcher and anteater, making an adjustable-size spaceship (and not a growing spaceship)
-=29 p33 statorless 90-degree glider reflector (FractalFusion)
+p33 statorless 90-degree glider reflector (FractalFusion)
 Reaction involving many copies of Jason's p33 allows for statorless oscillators of all periods that are multiples of 33.
-=29 p3 pipsquirters	James Pascua, 83bismuth38, cvojan, Dongook Lee, Mark Niemiec, Jiahao Yu, and iNoMed)
+p3 pipsquirters	James Pascua, 83bismuth38, cvojan, Dongook Lee, Mark Niemiec, Jiahao Yu, and iNoMed)
 Several new variants of oscillators with an isolated domino spark in the same orientation as known higher-period pipsquirters. These sparks can be used to support other oscillators such as the carnival shuttle (though they're far from the first known supports for that particular case)
-31 T-nosed p7 (Martin Grant)
+T-nosed p7 (Martin Grant)
 New p7 sparker completed based on a suggestion by muzik.
-32 p11 bouncer (Martin Grant and David Raucci)
+p11 bouncer (Martin Grant and David Raucci)
 A previously unknown period for the bouncer mechanism (a p11 bumper was known, though very little used).
+
+TBD: POTY 2022 updates ( https://conwaylife.com/wiki/Pattern_of_the_Year#2022 )
+Unsynthesizable and limited-ancestor objects	Ilkka Törmä and Ville Salo
+These discoveries include an unsynthesizable still life and unsynthesizable p2 oscillator, both based on "self-forcing" agars, a generalized solution to the grandfather problem (patterns that have n-tick predecessors but no (n+1)-tick predecessors), and American Dream, a finite pattern with an infinite-population predecessor but no finite-population predecessor.
+Explicit 15-glider reverse caber tosser	Daniel Vargas, Adam P. Goucher, Pavel Grankovskiy, Simon Ekström, Dave Greene, AlbertArmStain, Oscar Cunningham, Chris Cain, dani, and Goldtiger997
+A concrete construction demonstrating that any glider synthesis can be reduced to use just 15 gliders. The number of gliders was also reduced from its previous value of 17.
+Self-synthesizing glide-reflecting loopship	Goldtiger997
+A pattern made entirely of gliders that synthesises a reflected and translated copy of itself. Thus it is an orthogonal spaceship travelling at a speed of 30985960c/144171206.
+The Great Oscillator Discovery Project	David Raucci, Mitchell Riley, Luke Kiernan, iNoMed, et al.
+This project continued 2022's increased focus on the discovery of new oscillators, partially to work toward filling in the remaining unknown oscillator periods to finally prove Life to be omniperiodic.
+Speed Orthogonal Loopship	Goldtiger997
+A pattern made entirely of XWSSes that synthesises a reflected and translated copy of itself. It travels orthogonally and is adjustable so that its speed can become arbitrarily close to c/2. Its population is much less than that of the Speed Orthogonoid.
+Raucci's p38	David Raucci, Jason Summers, and cvojan
+The first known oscillator with period 38, made by adding copies of cvojan's traffic stop as fenceposts for a known wick by Jason Summers.
+Speed Orthogonoid	Goldtiger997
+An adjustable spaceship capable at travelling orthogonally at any speed less than c/2.
+Engineered diehards	Dean Hickerson, Pavel Grankovskiy, toroidalet, and Tanner Jacobi	Engineered diehards
+A series of diehard patterns with increasingly long lifespans, culminating in the discovery of a pattern that starts in a bounding box of area 9990, and yet lives for more than 10^10^10^10^10^10^10^10^10^10^10^10^10^10^10 generations before dying out completely.
+Lisp in Life	Hikaru Ikuta
+A Lisp interpreter implemented in Conway’s Game of Life, using technology similar to the Quest for Tetris project. This is the first implementation of a standardized high-level programming language inside Conway’s Game of Life.
+New quadratic growth records	dani, Luka Okanishi, and Rocknlol	
+The smallest known quadratic growth patterns in terms of population, number of gliders, and bounding box — 20-cell quadratic growth, 6G quadratic growth, and 23×13 quadratic growth.
+74P34	Mitchell Riley
+The first known non-trivial oscillator with period 34.
+New gun periods	David Raucci, iNoMed, Nico Brown, Mitchell Riley, goldenratio, Luke Kiernan, Gustone and cvojan
+Guns of five previously unsolved periods: 25, 27, 34, 37, and 43.
+New stable conduits and converters	Mitchell Riley, Simon Ekström, Evin, Entity Valkyrie, Tanner Jacobi, and qqd
+Several new stable conduits and converters, including the Speed Tunnel, HRx65R, a small stable 180° reflector (the "Jubjub reflector"), F149, Lx129, HL224H, RSE14T117, and NW-2T16.
+New spaceship syntheses	Goldtiger997, Mark Niemiec, iNoMed, Tanner Jacobi, pipsqueek, and Connor Steppie	
+Glider construction recipes were discovered for Orion 2, 33P4H1V1, 70P5H2V0, 58P8H4V0, 30P3H1V0, 29P3H1V0, Brain, 66P5H2V0, and 37P4H1V1, as well as a method for adding a component to existing c/3 spaceships.
+Quartermax	Keith Amling, Hartmut Holzwart, and Jason Summers
+A long sought-after pattern that fills one quarter of the Life plane with the zebra stripes agar .
+Soup search discoveries from distributed computing projects	Darren Li / Charity Engine and Open Science Grid
+Thanks to the efforts of Darren Li, in 2022 Catagolue started receiving a much larger number of distributed-computing search results, especially for symmetric soups. This contributed to a large number of new discoveries; see the Charity Engine and Open Science Grid articles for examples.
+Nico Brown's strictly volatile oscillators	Nico Brown
+Nico Brown created a script that can create huge strictly volatile oscillators of any period 943+ except 944.
+Smaller p24 glider gun	cvojan, vivi, and James Pascua
+A new second-smallest glider gun after the Gosper glider gun, fitting in a 20 × 20 bounding box.
+New honeyfarm catalysts	Mitchell Riley and Luke Kiernan
+Catalysts which perform new perturbations on honey farms. In particular the chucklebait, which has found considerable use in honey farm hasslers of various periods.
+232P7H3V0	Keith Amling
+A new record for the smallest 3c/7 spaceship.
+Completion of the 21-bit strict still life synthesis project and the 20-bit pseudo still life synthesis project	Alex Greason, May13, wwei23, iNoMed, Daniel Vargas, Jeremy Tan, Adam P. Goucher, Carson Cheng, Goldtiger997, and Tanner Jacobi	
+Completion of the 21-bit strict still life synthesis project and the 20-bit pseudo still life synthesis project: Glider syntheses for all 21-bit strict still lifes and all 20-bit pseudo still lifes.
+New greyships	Hartmut Holzwart and Keith Amling
+A variety of new greyships, many of which were found with Keith Amling’s new search program, LLSSS.
+p8 "functionally stable" glider reflector	Tanner Jacobi
+A period-8 180° glider reflector that works in every phase and hence can be used as if it were stable.
+Strictly volatile p86 R-pentomino hassler	Nico Brown and iNoMed
+The discovery of this oscillator added 86 to a fairly short list, making it the fourteenth period where a strictly volatile oscillator is known that doesn't make use of self-constructing circuitry.
+Five new p23 engines	Nico Brown, James Pascua, and Mitchell Riley
+At the end of 2021, only one period-23 oscillator was known, excluding variants: David Hilbert. As of the end of 2022, there are six.
+Taco	Frank Everdij	[27]
+The third known elementary c/7 orthogonal spaceship.
+Record lifespan puffer-based methuselahs	yaochen2, dani, and gravity
+This series of patterns with relatively small bounding boxes and initial populations set several new records for methuselah longevity. Ordinarily patterns that include switch engine outputs will produce unbounded linear growth and are not counted in the "methuselah" category, but these examples generate a lucky retrograde glider that shuts down the receding switch engines after thousands or millions of generations.
+Small Max predcessors	iNoMed and rocknlol	[29]
+After an intermediate 127-cell, 27 × 23 new record set by iNoMed, Rocknlol found two different record predecessors of a Max spacefiller variant by population and bounding box of 112 cells and 21 × 21, respectively.
+New reflector periods	vivi, iNoMed, Matthias Merzenich, David Raucci, Mitchell Riley, MAP bot, Nico Brown, Tanner Jacobi, and Noam Elkies	[30]
+90° reflectors for the previously unsolved periods of 23, 34, and 38.
+Component for adding a "crotchet" to a c/3 spaceship	Goldtiger997
+This is a new synthesis component that can repeatably extend a "waltz" section of c/3 orthogonal spaceship, allowing for the first known infinite series of synthesizable c/3 spaceships.
+New c/2 patterns from soup searches	mystical, Charity Engine, and wwei23	
+Spaceships, puffers, and a rake found from 'unnatural' soup searches. The ship 58P8H4V0 and a p28 block puffer were found in symmetric soups; the ship 35P12H6V0, the p112 puffer, and p12 rake were found in soups with the leading edge of the spaceships already present.
+Gliderless Gosper glider gun breeder	Wojciech Kęsy
+
+TBD: POTY 2023 updates ( https://conwaylife.com/wiki/Pattern_of_the_Year#2023 )
+Spacefiller synthesis	Goldtiger997
+The first ever synthesis of a spacefiller
+Walrus	Adam P. Goucher
+The first known elementary c/8 diagonal spaceship
+Cribbage	Mitchell Riley
+The first period-19 oscillator to be discovered. It was one of the final two periods in the proof that Life is omniperiodic.
+p41 dependent reflector loop	Nico Brown
+The first period-41 oscillator to be discovered. It was one of the final two periods in the proof that Life is omniperiodic.
+(34,7)c/156 Caterpillar	Luka Okanishi
+An engineered spaceship based on the (34,7)c/156 Herschel climber reaction
+Snark64	Carson Cheng
+A 90° glider reflector that can be used to solve synchronization and glider color problems, as well as being a glider-emitting catalyst
+Stable Storage Spaceship	Goldtiger997
+The first known spaceship that purely consists of a glider hitting a stable constellation in at least one of its phases
+New oscillator discoveries	David Raucci, Mitchell Riley, Luke Kiernan, iNoMed, Nico Brown, Carson Cheng, Matthias Merzenich, et al.
+A continuing project to find new oscillators. In 2023, new oscillators were found for every period up to 94.
+Ultra long-lived Engineered diehards	Pavel Grankovsky, Adam P. Goucher, Tim Coe, toroidalet, EvinZL et al.
+This year an explosion of diehard discoveries were made, culminating in a pattern that lives for 17^^^3 generations before dying out.
+HBK caterpillar	FWKnightship
+Built on the half-bakery reaction, it's the fastest spaceship of its type, achieving a speed of (6,3)c/1024
+G-to-LWSS	Luke Kiernan and Mitchell Riley
+The smallest known stable glider to lightweight spaceship converter
+Galumpher	affamatodidio
+A Spartan 180-degree 0hd reflector that is easier to construct than its alternative, the Jubjub reflector
+Period-41 glider guns	iNoMed, Matthias Merzenich, May13, David Raucci, and Nico Brown
+The first guns of period 41. They were found one day after the discovery of the first period-41 oscillator
+New c/4 diagonal technology	Keith Amling, David Bell, Dmitry Maitak, praosylen, Evin, and Matthias Merzenich
+A significant expansion of medium-period c/4 diagonal technology, including new spaceships, puffers, and rakes of various periods. Of particular note is a period-8 backrake, the first rake to be found by a direct computer search.
+New small guns	Mitchell Riley, Carson Cheng, iNoMed, Nico Brown, and Matthias Merzenich
+Various record-breaking engine-based glider guns, including periods 42, 49, 52, 59, 61, 68, 70, 72, 84, 126, and 201
+p24 gliderless LWSS gun	Matthias Merzenich, iNoMed, and Christopher D'Agostino
+This represents the lowest known period for a gliderless LWSS gun.
+Odd traffic stop	Nico Brown
+A p2 phase-shifting catalyst that enabled the discovery of multiple odd-period oscillators
+New SKOPs	Mitchell Riley, Nico Brown, Carson Cheng, iNoMed, et al.
+Many new record-breaking oscillators, including periods 12, 38, 49, 68, 76, and 384 and more
+Glider-to-chaos converter	Mitchell Riley
+A stable "glider-to-chaos" mechanism that led to discoveries of several reflectors and glider-accepting conduits, including , G → B, G → H, G → P, G → R, G → Q, and G → U
+c/3 against-the-grain greyships	Keith Amling, Hartmut Holzwart, and Jason Summers
+The first c/3 greyship that travels perpendicular to the direction of the stripes
+8-lane stable glider shifter	Mitchell Riley
+A useful conduit that shifts a glider onto another lane without affecting its colour
+Charity's p25	Charity Engine
+The first known strictly volatile period-25 oscillator
+New wickstretchers	Keith Amling, Frank Everdij, Matthias Merzenich, and Hartmut Holzwart
+More new types of wickstretchers were found in 2023 than in all past years combined, including three new speeds. This includes stretchers for new combinations of speed and wick, as well as improvements to existing types of stretchers.
+Still life synthesis reductions	Alex Greason, Carson Cheng, Goldtiger997, May13, GUYTU6J, et al.
+Optimizations to still life syntheses have led to the completion of the 11-in-5, 15-in-10, and 17-in-15 projects
+New stable pulse dividers	Evin, Disaster16439, Louis-François Handfield, Entity Valkyrie, confocaloid
+conduits that divide a glider stream by 5, 6, 11, 12, 6n+4, 6n+25 or 6n+26, and 6n+34 or 6n+35
+Period-2^18 WireWorld metacell	blah
+A pattern that emulates a cell in the WireWorld rule
+Small spacefillers	Rocknlol
+Several new record-breaking Max predecessors
+Cleaner boojum reflector catalyst	Luke Kiernan
+By adding a catalyst to clean up the unwanted beehive in the boojum reflector, a series of useful G-to-X’s, including 180° glider reflectors with different timings, are discovered
+(2,1)c/6 knightship tagalong	Darren Li
+A surprisingly small tagalong given how long ago Sir Robin was discovered
+Crotchet ship pseudo-Heisenburp	David Bell
+A nice contraption to detect the presence of certain types of c/3 spaceships
+Baitless G-to-pi converter	Mitchell Riley
+A rare glider catalyst without bait objects, it converts a glider directly into a pi-heptomino, and can be used as a small beehive stopper and in a period-36 glider/pi hassler
+p13 domino sparker	Mitchell Riley
+The first p13 domino sparker with enough clearance to be useful
+1413-tick natural diehard	Charity Engine
+The longest-lived natural 16 × 16 diehard
